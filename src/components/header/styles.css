@@ -1,0 +1,33 @@
+
+  
+  .navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding-inline: 4rem;
+  }
+  
+  .navbar-logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navbar-btn {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  .login-btn {
+    margin-inline-end: 10px;
+    min-width: 100px;
+    min-height: 32px;
+    border-radius: 3px;
+    border: none
+  }
+  
+  .login-btn:hover{
+    background-color: green;
+    cursor: pointer;
+  }
+  

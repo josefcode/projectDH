@@ -1,0 +1,41 @@
+
+.searchBox-container{
+    background-color: #545776;
+    padding-block: 10px;
+    display: grid;
+    justify-content: center;
+
+}
+
+.searchBox-title {
+    text-align: center;
+    color: var(--white-color);
+}
+.searchBox-btn {
+    background-color: var(--button-background);
+    border: transparent;
+    min-width: 100px;
+    min-height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.searchBox-card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+    background-color: #270570;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px
+}
+
+.searchBox-form {
+    width: 60rem;
+    display: grid;
+    grid-template-columns: 400px 400px 100px;
+    gap: 4px
+}
+
