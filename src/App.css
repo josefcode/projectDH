@@ -9,11 +9,7 @@
     'footer';
 }
 
-.app-header {
-  background-color: var(--navbar-color);
-  grid-area: header;
-  
-}
+
 
 .app-main {
   grid-area: main;

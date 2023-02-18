@@ -1,5 +1,11 @@
 
+  .navbar-header {
   
+      background-color: var(--navbar-color);
+      grid-area: header;
+      
+   
+  }
   .navbar {
     display: grid;
     grid-template-columns: auto auto;
@@ -20,6 +26,7 @@
   
   .login-btn {
     margin-inline-end: 10px;
+    background-color: var(--button-background);
     min-width: 100px;
     min-height: 32px;
     border-radius: 3px;
@@ -31,3 +38,10 @@
     cursor: pointer;
   }
   
+
+  @media only screen and (max-width: 600px){
+    .navbar {
+      grid-template-columns: 150px 150px;
+      padding-inline: 1rem
+    }
+  }

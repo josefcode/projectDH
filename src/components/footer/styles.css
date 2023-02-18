@@ -3,3 +3,12 @@
     grid-template-columns : repeat(4, 40px);
     justify-content: right;
 }
+
+.footer {
+    grid-area: footer;
+    background-color :  var(--button-background);
+    padding-inline :  4rem;
+    display :  grid;
+    grid-template-columns :  auto auto;
+    align-items :  center
+}
