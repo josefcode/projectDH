@@ -1,14 +1,13 @@
 
   .navbar-header {
-  
       background-color: var(--navbar-color);
       grid-area: header;
-      
-   
+  }
+  .menu-icon {
+    visibility: hidden;
   }
   .navbar {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     align-items: center;
     padding-inline: 4rem;
   }
@@ -19,29 +18,35 @@
   }
   
   .navbar-btn {
+    margin-left: auto;
     display: flex;
-    justify-content: flex-end;
-    
+    gap: 5px;
   }
   
   .login-btn {
-    margin-inline-end: 10px;
-    background-color: var(--button-background);
-    min-width: 100px;
-    min-height: 32px;
-    border-radius: 3px;
-    border: none
-  }
-  
-  .login-btn:hover{
-    background-color: green;
+    background-color: transparent;
+    color: #1DBEB4;
+    border: 1px solid #1DBEB4;
+    border-radius: 5px;
+    width: 206px;
+    height: 40px;
     cursor: pointer;
+    
   }
-  
 
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 600px){ 
     .navbar {
-      grid-template-columns: 150px 150px;
-      padding-inline: 1rem
+      padding-inline: 1rem;
+
+    }
+    .navbar-btn {
+      display: none;
+    }
+    .menu-icon {
+      visibility: visible ;
+      margin-left: auto;
+      color: var(--DB-COLOR-3)
     }
   }
+
+  

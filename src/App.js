@@ -1,8 +1,8 @@
 
 import './App.css';
 import { Footer } from './components/footer/Footer';
-import { RecommendationCards } from './components/recommendation-cards/RecommendationCards';
 import Navbar from './components/header/Navbar';
+import Main from './components/main/Main';
 
 
 
@@ -12,13 +12,7 @@ function App() {
     <div className="app">
 
       <Navbar />
-      <main className='app-main'>
-        <RecommendationCards />
-        <RecommendationCards />
-        <RecommendationCards />
-      
-      </main>
-
+      <Main />
       <Footer/>
  
     </div>

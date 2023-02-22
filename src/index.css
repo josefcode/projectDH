@@ -1,18 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 :root {
+  --DB-COLOR-PRINCIPAL: #1DBEB4;
+  --DB-COLOR-2: #383B58;
+  --DB-COLOR-3 : #545776;
+  --DB-COLOR-4 : #F3F1ED;
    --white-color : #ffffff;
-   --search-header : #545776;
-   --button-background: #1dbeb6;
-   --recommendation-background: #eae9ee
+   --recommendation-background: #eae9ee;
+   --heading1 : 24pt;
+   --heading2 : 20pt;
+   --heading3 : 16pt;
+   --heading4 : 14pt;
+   --botton1 : 14pt;
+   --text1 : 14pt;
+   --text2 : 12pt;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
   height: 100%;
+  outline: 1px solid orange;
 
 }
 

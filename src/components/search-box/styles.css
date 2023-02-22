@@ -2,40 +2,49 @@
 .searchBox-container{
     background-color: #545776;
     padding-block: 10px;
-    display: grid;
-    justify-content: center;
-
+    padding-inline: 4rem;
 }
 
 .searchBox-title {
     text-align: center;
     color: var(--white-color);
 }
+
+.location-input {
+    background: white;
+    border-radius: 5px;
+    width: 100%;
+}
+.date-input {
+    background: white;
+    border-radius: 5px;
+    width: 100%;
+}
 .searchBox-btn {
-    background-color: var(--button-background);
+    background-color: var(--DB-COLOR-PRINCIPAL);
+    color: var(--white-color);
+    font-weight: 700;
     border: transparent;
-    min-width: 100px;
+    width: 50%;
     min-height: 32px;
     border-radius: 4px;
     cursor: pointer;
 }
 
-
-.searchBox-card {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    border-radius: 10px;
-    background-color: #270570;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    gap: 4px
+.searchBox-form {
+    display: flex;
+    gap: 10px
 }
 
-.searchBox-form {
-    width: 60rem;
-    display: grid;
-    grid-template-columns: 400px 400px 100px;
-    gap: 4px
+
+@media only screen and (max-width: 600px) {
+    
+.searchBox-container{
+
+    padding-inline: 1rem;
+}
+    .searchBox-form {
+        display: flex;
+    }
 }
 
